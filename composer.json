@@ -1,0 +1,20 @@
+{
+    "name": "vamsiikrishna/neuralist",
+    "description": "A PHP interface to access neural-redis, a neural networks module for Redis.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vamsi Krishna B",
+            "email": "vamsi@fastmail.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "v1.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vamsi\\Neuralist\\" : "src"
+        }
+    }
+}
